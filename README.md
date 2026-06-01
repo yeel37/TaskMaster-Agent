@@ -5,6 +5,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://python.org)
 [![LangChain](https://img.shields.io/badge/LangChain-0.2%2B-00A3E0)](https://python.langchain.com/)
+[![Python tests](https://github.com/yeel37/TaskMaster-Agent/actions/workflows/python-tests.yml/badge.svg)](https://github.com/yeel37/TaskMaster-Agent/actions/workflows/python-tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **真实价值**：每天用它处理重复劳动，真正解放双手，同时用高质量提交记录丰富 GitHub，冲击 OpenAI Codex for Open Source！
@@ -32,7 +33,7 @@
 ### 2. 克隆 + 进入
 
 ```bash
-git clone https://github.com/你的用户名/TaskMaster-Agent.git
+git clone https://github.com/yeel37/TaskMaster-Agent.git
 cd TaskMaster-Agent
 ```
 
@@ -72,6 +73,12 @@ streamlit run app/streamlit_app.py
 ```
 
 在浏览器里直接聊天，点击左侧示例按钮即可体验全部功能！
+
+## 📸 界面预览
+
+**Web 聊天界面**
+
+![TaskMaster Web 界面](docs/screenshots/streamlit_main.png)
 
 ---
 
@@ -149,6 +156,12 @@ PYTHONPATH=src python3 -m taskmaster.cli "搜索最新AI工具"
 # 运行 pytest（如果有）
 python -m pytest
 ```
+
+GitHub Actions 会在每次 push 和 pull request 时自动运行测试，状态可在仓库顶部徽章查看。
+
+## 🗓️ 更新日志
+
+项目维护记录见 [CHANGELOG.md](CHANGELOG.md)。
 
 ---
 

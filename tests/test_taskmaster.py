@@ -18,6 +18,9 @@ def test_demo_agent_runs():
 
 def test_web_search_tool():
     agent = TaskMasterAgent(provider="demo")
+    import taskmaster.agent as agent_module
+
+    agent_module.HAS_DDG = False
     res = agent.run("搜索一下 Python 最新动态")
     assert "web_search" in str(res.get("final_output", {}))
 
